@@ -140,3 +140,6 @@ config.ini
 # db files
 *.db
 *.db-journal
+
+# VSCode
+.vscode
