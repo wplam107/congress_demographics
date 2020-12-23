@@ -42,7 +42,7 @@ api_columns = [ col for col in API_DICT.keys() ]
 # Set SQL columns for table
 db_col_dict = API_DICT.copy()
 db_col_dict['chamber'] = 'TEXT'
-db_col_dict['congress'] = 'TEXT'
+db_col_dict['congress'] = 'INT'
 
 # Scrape range of congresses available for senate and house
 senate_range, house_range = scrape_range(PP_URL)
